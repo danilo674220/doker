@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Estilo para los botones */
+.boton {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #005f73;
+}
+
+/* Estilo para los botones de navegación */
+.botones-navegacion {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px;
+}
+
+/* Página de contacto */
+.contacto p {
+    font-size: 18px;
+}
