@@ -1,14 +1,14 @@
 # Usa una imagen base de Python
-FROM python:3.9
+FROM python:latest
 
 # Establece el directorio de trabajo
 WORKDIR /app
 
 # Copia los archivos del proyecto al contenedor
-COPY . /app
+COPY . .
 
 # Instala Flask
-RUN pip install flask
+RUN pip install -r requirements.txt
 
 # Expone el puerto 5000
 EXPOSE 5000
