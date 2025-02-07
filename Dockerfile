@@ -14,4 +14,4 @@ RUN pip install flask
 EXPOSE 5000
 
 # Comando para ejecutar Flask
-CMD ["python", "app.py"]
+CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
